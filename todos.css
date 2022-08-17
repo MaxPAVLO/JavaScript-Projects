@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Faible';
+    src: local('Faible Regular'), local('Faible-Regular'),
+        url('Faible-Regular.woff2') format('woff2'),
+        url('Faible-Regular.woff') format('woff'),
+        url('Faible-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    height: 20em;
+}
+
+.content{
+    position: relative;
+    display: inline-block;
+}
+
+.header{
+    font-size: 60px;
+    color: rgb(230, 190, 221);
+    text-align: center;
+    padding-bottom: 2.6%;
+    color: #e0b1b8
+}
+
+.Main{
+    position: relative;
+    display: inline-block;
+    box-shadow: outset -5px 7px 4 7px black;
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    height: 2em;
+    width: 30em;
+    padding: 2%;
+    font-size: 20px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+input::placeholder{
+    color: #d9d9d9;
+    font-style: italic;   
+}
+
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.Mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    width: 2em;
+    padding: 2%;
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.block{
+    background-color: white;
+    width: 24.96em;
+    height: 1.97em;
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+    padding: 1%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.NeedToDo{
+    position: relative;
+    left: 4.5%;
+    top: 20%;
+    opacity: 0.9;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.Check{
+    border: 1px solid #999999;
+    border-radius: 30px;
+    background-color: white;
+    width: 1.3em;
+    height: 1.3em;
+    position: relative;
+    top: 16%;
+    left: 1.8%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Check:hover{
+    cursor: pointer;
+}
+
+.xmark{
+    position: absolute;
+    color: black;
+    top: 26%;
+    left: 90%;
+}
+
+.xmark:hover{
+    color: #999999;
+    cursor: pointer;
+}
+
+.Legend{
+    width: 39.78em;
+    height: 3.4em;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #999999;
+}
+
+.lig1{
+    position: relative;
+    left: 5%;
+    transition: 0.5s, all ease-in;
+}
+
+.lig1:hover{
+    text-decoration: underline;
+
+}
+
+.lig3{
+    position: relative;
+    right: 5%;
+    transition: 0.5s all ease-in;
+}
+
+.lig2{
+    display: flex;
+    flex-direction: row;
+    position: relative
+}
+
+.function1{
+    padding-right: 12%;
+}
+
+.function2{
+    padding-right: 12%;
+}
+
+.function1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.function2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.function3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lig3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.createdBy{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.AC{
+    color: rgb(230, 190, 221);
+}
+
+.name{
+    color: black;
+}
