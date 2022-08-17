@@ -28,6 +28,46 @@ body{
     color: #e0b1b8
 }
 
+@media screen and (max-width: 1300px){
+    .header{
+        font-size: 60px;
+        color: rgb(230, 190, 221);
+        text-align: center;
+        padding-bottom: 2.6%;
+        color: #e0b1b8
+    }
+}
+
+@media screen and (max-width: 998px){
+    .header{
+        font-size: 52px;
+        color: rgb(230, 190, 221);
+        text-align: center;
+        padding-bottom: 2.6%;
+        color: #e0b1b8
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        font-size: 45px;
+        color: rgb(230, 190, 221);
+        text-align: center;
+        padding-bottom: 2.6%;
+        color: #e0b1b8
+    }
+}
+
+@media screen and (max-width: 576px){
+    .header{
+        font-size: 36px;
+        color: rgb(230, 190, 221);
+        text-align: center;
+        padding-bottom: 2.6%;
+        color: #e0b1b8
+    }
+}
+
 .Main{
     position: relative;
     display: inline-block;
