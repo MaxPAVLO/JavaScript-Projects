@@ -121,7 +121,7 @@ function CheckShow(check){
         mark2.remove();
         const block = check.parentNode;
         const Do = block.childNodes[1];
-        Do.style.textDecoration = "none";
+        Do.style.textDecoration = "";
         Do.style.opacity = "1";
         counter++;
         const Lig1 = document.querySelector(".lig1")
