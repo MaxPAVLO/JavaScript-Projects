@@ -86,7 +86,11 @@ document.addEventListener("keyup", (e) =>{
 })
 
 mark.addEventListener("click", () =>{
-    if(mark.className == "fa-solid fa-angle-up"){
+    if(list.childNodes.length == 0) {
+        mark.className = "fa-solid fa-angle-up";
+    }
+    
+    else if(mark.className == "fa-solid fa-angle-up"){
         mark.className = "fa-solid fa-angle-down";
         list.style.display = "inline-block";
     }
@@ -137,7 +141,7 @@ function CheckShow(check){
 
 function DeleteBlock(xmark) {
     const block = xmark.parentNode;
-    const Lig1 = document.querySelector(".lig1")
+    const Lig1 = document.querySelector(".lig1");
     if(block.childNodes[1].style.textDecoration == ""){
         counter --;
         if(counter == 1){
@@ -149,6 +153,11 @@ function DeleteBlock(xmark) {
         }
     }
     block.remove();
+
+    if(list.childNodes.length == 0) {
+        list.style.display = "none";
+        mark.className = "fa-solid fa-angle-up";
+    }
 }
 
 function ClearCompleted(Text) {
@@ -184,7 +193,7 @@ function ACTIVEfunction(Text){
     }
 }
 
-function COMPLETEDfunction(Text ){
+function COMPLETEDfunction(Text){
     for(const i of list.childNodes){
         if(i.childNodes[1].style.textDecoration == ""){
             i.style.display = "none";
