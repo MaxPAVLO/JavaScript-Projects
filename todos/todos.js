@@ -156,11 +156,11 @@ function ClearCompleted(Text) {
         if(i.childNodes[1].style.textDecoration == "line-through"){
             i.remove();
             if(counter == 1){
-                Lig1.innerHTML = counter + "item left";
+                Lig1.innerHTML = counter + " item left";
             }
 
             else{
-                Lig1.innerHTML = counter + "items left";
+                Lig1.innerHTML = counter + " items left";
             }
         };
     }
