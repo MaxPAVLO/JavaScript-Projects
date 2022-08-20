@@ -1,0 +1,211 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35em;
+    position: relative;
+}
+
+.Display{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 10%;
+    width: 35em;
+    color: white;
+    text-align: center;
+    font-family: "SPIDER NEST", cursive;
+}
+
+.start{
+    font-size: 50px;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.first{
+    position: relative;
+    background-color: #5d76cb;
+    color: white;
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header{
+    text-align: center;
+    position: relative;
+    font-size: 65px;
+    font-weight: 450;
+    font-family: "SPIDER NEST", cursive;
+    top: 10%;
+}
+
+.clockDisplay{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 160px;
+    position: relative;
+    top: 7%;
+    font-family: none;
+}   
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2%;
+    height: 20%;
+    align-items: center;
+}
+
+.Button1{
+    margin-right: 7%;
+}
+
+.Button1, .Button2{
+    height: 50%;
+    width: 40%;
+    font-size: 17px;
+    font-family: "SPIDER NEST", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s all ease-in;
+    font-size: 25px;
+    background-color: white;
+    border: none;
+}
+
+.Button1:hover, .Button2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Button1 span, .Button2 span{
+    margin-left: 5%;
+}
+
+.customizeDisplay{
+    background-color: white;
+    position: relative;
+    color: black;
+    height: 30%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: "SPIDER NEST", cursive;
+    position: relative;
+    top: 12%;
+}
+
+.namesBlock{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Session{
+    padding-right: 21%;
+}
+
+.optimizer{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 20%;
+    height: 23%;
+}
+
+.up_min{
+    width: 22%;
+    height: 80%;
+    background-color: #5d76cb;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 0.25s all ease-in;
+}
+
+.down_min{
+    width: 22%;
+    height: 77%;
+    background-color: #5d76cb;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    transition: 0.25s all ease-in;
+}
+
+.up_sec{
+    width: 22%;
+    height: 80%;
+    background-color: #5d76cb;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 0.25s all ease-in;
+}
+
+.down_sec{
+    width: 22%;
+    height: 77%;
+    background-color: #5d76cb;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    transition: 0.25s all ease-in;
+}
+
+.down_min:hover, .up_min:hover, .down_sec:hover, .up_sec:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.optimizerNum1{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    width: 23%;
+    padding-left: 16%;
+}
+
+.optimizerNum2{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    width: 23%;
+    padding-right: 15%;
+}
+
+.Minute{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.Second{
+    padding-left: 12%;
+    padding-right: 12%;
+}
