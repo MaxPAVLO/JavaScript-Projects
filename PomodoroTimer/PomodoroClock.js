@@ -211,7 +211,7 @@ function Timer() {
             UPL.style.backgroundColor = "#ff3333";
             DOWNL.style.backgroundColor = "#ff3333";
 
-            forMin = minb - 1;
+            forMin = minl - 1;
             forSec = 59;
         }
     }
