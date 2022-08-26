@@ -12,6 +12,7 @@ const MINL = document.querySelector(".Minute");
 const MINB = document.querySelector(".Second");
 const IPlay = button1.querySelector("i");
 const Span = button1.querySelector("span");
+const Name = document.querySelector(".name");
 var forMin = null;
 var forSec = null;
 var functionStarted = false;
@@ -123,7 +124,8 @@ button1.addEventListener("click", () =>{
                 DOWNL.style.backgroundColor = "#ff3333";
                 UPB.style.backgroundColor = "#ff3333";
                 DOWNB.style.backgroundColor = "#ff3333";
-                header.innerHTML = "Session";   
+                header.innerHTML = "Session";
+                Name.style.color = "#ff3333";   
             }
 
             IPlay.className = "fa-solid fa-pause";
@@ -167,6 +169,7 @@ button2.addEventListener("click", () =>{
     DOWNL.style.backgroundColor = "#5d76cb";
     UPB.style.backgroundColor = "#5d76cb";
     DOWNB.style.backgroundColor = "#5d76cb";
+    Name.style.color = "#5d76cb";
     header.innerHTML = "Reset";
 
     IPlay.className = "fa-solid fa-play ";
@@ -190,6 +193,7 @@ function Timer() {
             DOWNB.style.backgroundColor = "#0ddec9";
             UPL.style.backgroundColor = "#0ddec9";
             DOWNL.style.backgroundColor = "#0ddec9";
+            Name.style.color = "#0ddec9";  
 
             forMin = minb - 1;
             forSec = 59;
@@ -210,6 +214,7 @@ function Timer() {
             DOWNB.style.backgroundColor = "#ff3333";
             UPL.style.backgroundColor = "#ff3333";
             DOWNL.style.backgroundColor = "#ff3333";
+            Name.style.color = "#ff3333";  
 
             forMin = minl - 1;
             forSec = 59;
