@@ -1,0 +1,570 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: auto;
+    position: relative;
+    background-color: #002137;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+header{
+    font-size: 75px;
+    font-weight: 400;
+    color: white;
+    font-family: "Calibri", light;
+}
+
+@media screen and (max-width: 1300px){
+    header{
+        font-size: 75px;
+        font-weight: 400;
+        color: white;
+        font-family: "Calibri", light;
+    }
+}
+
+@media screen and (max-width: 998px){
+    header{
+        font-size: 59px;
+        font-weight: 400;
+        color: white;
+        font-family: "Calibri", light;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        font-size: 48px;
+        font-weight: 400;
+        color: white;
+        font-family: "Calibri", light;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header{
+        font-size: 39px;
+        font-weight: 400;
+        color: white;
+        font-family: "Calibri", light;
+    }
+}
+
+@media screen and (max-width: 398px){
+    header{
+        font-size: 28px;
+        font-weight: 400;
+        color: white;
+        font-family: "Calibri", light;
+    }
+}
+
+.Searcher{
+    width: 37%;
+    display: flex;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 1300px){
+    .Searcher{
+        width: 37%;
+        position: sticky;
+        display: flex;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .Searcher{
+        width: 43%;
+        position: sticky;
+        display: flex;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Searcher{
+        width: 52%;
+        position: sticky;
+        display: flex;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .Searcher{
+        width: 67%;
+        position: sticky;
+        display: flex;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 398px){
+    .Searcher{
+        width: 69%;
+        position: sticky;
+        display: flex;
+        margin-top: 2%;
+    }
+}
+
+.Input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid white;
+    width: 65%;
+    font-family: "Calibri", light;
+    font-size: 30px;
+    background-color: #002137;
+    color: white;
+    position: relative;
+}
+
+.Input::placeholder{
+    color: white;  
+    font-size: 34px;
+    position: relative;
+}
+
+@media screen and (max-width: 1300px){
+    .Input::placeholder{
+        color: white;  
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .Input::placeholder{
+        color: white;  
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Input::placeholder{
+        color: white;  
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .Input::placeholder{
+        color: white;  
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 398px){
+    .Input::placeholder{
+        color: white;  
+        font-size: 16px;
+    }
+}
+
+.Input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.Button{
+    background-color: #ff3333;
+    margin-left: 4%;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    font-size: 25px;
+    font-family: "Calibri", light;
+    font-weight: 600;
+    position: relative;
+}
+
+@media screen and (max-width: 1300px){
+    .Button{
+        background-color: #ff3333;
+        margin-left: 4%;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        height: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        font-size: 25px;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .Button{
+        background-color: #ff3333;
+        margin-left: 4%;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        height: 1.8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        font-size: 22px;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Button{
+        background-color: #ff3333;
+        margin-left: 4%;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        height: 2.2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        font-size: 20px;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .Button{
+        background-color: #ff3333;
+        margin-left: 4%;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        height: 2.6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        font-size: 18px;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 398px){
+    .Button{
+        background-color: #ff3333;
+        margin-left: 4%;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        height: 3.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        font-size: 12px;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 298px){
+    .Button{
+        background-color: #ff3333;
+        margin-left: 4%;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        height: 3.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18%;
+        font-size: 12px;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+}
+
+.Button:hover{
+    cursor: pointer;
+}
+
+.Cities{
+    padding-top: 5%;
+    position: relative;
+    display: flex;
+    width: 20%;
+}
+
+.block{
+    background-color: white;
+    height: 21em;
+    width: 16em;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+.NameOfCity{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-family: "Calibri", light;
+}
+
+span{
+    font-size: 25px;
+    color: #333333;
+}
+
+.degrees{
+    color: black;
+    font-size: 90px;
+    margin-top: 2.2%;
+    margin-left: 9%;
+    font-family: "Calibri", light;
+    font-weight: 600;
+}
+
+.NameOfCity i{
+    color: #333333;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.NameOfCity i:hover{
+    color: #999999;
+}
+
+.Weather{
+    margin-top: 5%;
+    padding-left: 9%;
+    position: relative;
+    font-family: "Calibri", light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 1300px){
+    .block{
+        background-color: white;
+        height: 21em;
+        width: 16em;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    .degrees{
+        color: black;
+        font-size: 90px;
+        margin-top: 2.2%;
+        margin-left: 9%;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+
+    .Weather{
+        margin-top: 5%;
+        padding-left: 9%;
+        position: relative;
+        font-family: "Calibri", light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .block{
+        background-color: white;
+        height: 21em;
+        width: 17em;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    .degrees{
+        color: black;
+        font-size: 90px;
+        margin-top: 2.2%;
+        margin-left: 9%;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+
+    .Weather{
+        margin-top: 5%;
+        padding-left: 9%;
+        position: relative;
+        font-family: "Calibri", light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 768px){    
+    .block{
+        background-color: white;
+        height: 20em;
+        width: 18em;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    .degrees{
+        color: black;
+        font-size: 65px;
+        margin-top: 2.2%;
+        margin-left: 9%;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+
+    .Weather{
+        margin-top: 10%;
+        padding-left: 9%;
+        position: relative;
+        font-family: "Calibri", light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .block{
+        background-color: white;
+        height: 18em;
+        width: 30em;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    .degrees{
+        color: black;
+        font-size: 55px;
+        margin-top: 2.2%;
+        margin-left: 9%;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+
+    .Weather{
+        margin-top: 11%;
+        padding-left: 9%;
+        position: relative;
+        font-family: "Calibri", light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 398px){
+    .block{
+        background-color: white;
+        height: 18em;
+        width: 40em;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    .degrees{
+        color: black;
+        font-size: 50px;
+        margin-top: 2.2%;
+        margin-left: 9%;
+        font-family: "Calibri", light;
+        font-weight: 600;
+    }
+
+    .Weather{
+        margin-top: 10%;
+        padding-left: 9%;
+        position: relative;
+        font-family: "Calibri", light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15%;
+    }
+
+    span{
+        font-size: 15px;
+        color: #333333;
+    }
+}
+
+i{
+    color: black;
+    font-size: 110px;
+}
+
+.Now{
+    font-size: 25px;
+    font-family: "Calibri", light;
+    font-weight: 300;
+}
+
+.createBy{
+    position: relative;
+    width: 100%;
+    font-family: "Calibri", light;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.created{
+    color: white;
+    font-size: 18px;
+}
+
+.name{
+    color: orange;
+    font-size: 18px; 
+}
